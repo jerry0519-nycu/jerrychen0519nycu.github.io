@@ -1,6 +1,9 @@
 body {
     font-family: Arial, sans-serif;
-    display: block;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 100vh;
     margin: 0;
     padding: 20px;
     background-color: #f4f4f4;
@@ -8,8 +11,8 @@ body {
 
 div {
     text-align: left;
-    max-width: 600px; 
-    margin-left: 20px; 
+    max-width: 600px;
+    margin: 0;
 }
 
 h1, h2, h3 {
@@ -19,8 +22,4 @@ h1, h2, h3 {
 p {
     font-size: 16px;
     color: #555;
-}
-
-h1 {
-    color: #333;
 }
